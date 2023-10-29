@@ -1,0 +1,62 @@
+body{
+  height: 100vh;
+}
+.container-fluid{
+        height: 100vh;
+        background-color: rgb(70, 66, 66);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+}
+.weather-box{
+        background-image: linear-gradient(to right,#d2caf5,#ead9b8);
+        height: 30em;
+        width: 25em;
+        border-radius: 10px;
+}
+.serach-btn{
+      float: right;
+      margin-right: 30px;
+      background: white;
+      height: 31px;
+      width: 31px;
+      border-radius: 30px;
+}
+.serach-btn:hover{
+  background-color: #b3dfd0;
+}
+input{
+    width: 250px;
+    margin-left: 25px;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+input::placeholder{
+  color: rgb(141, 138, 138);
+}
+.weather-details{
+  background-color: white;
+  border-radius: 10px;
+    height: 60%;
+    width: 82%;
+    display: block;
+    margin: 34px;
+    text-align: center;
+}  
+.data{
+  float: left;
+    margin-left: 63px;
+}
+.weather-loction{
+  font-size: 30px;
+    margin-top: -40px;
+}
+.element{
+  margin-top: -30px;
+    margin-left: 10px;
+    line-height: 8px;
+}
+
